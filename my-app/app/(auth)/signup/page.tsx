@@ -42,9 +42,9 @@ export default function SignupPage() {
       // API 호출 시뮬레이션
       await new Promise((resolve) => setTimeout(resolve, 1000));
       toast.success("회원가입에 성공했습니다!");
-      console.log("회원가입 데이터:", data);
       form.reset();
     } catch (error) {
+      console.error("회원가입 오류:", error instanceof Error ? error.message : "알 수 없는 오류");
       toast.error("회원가입 중 오류가 발생했습니다.");
     } finally {
       setIsLoading(false);

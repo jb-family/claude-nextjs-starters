@@ -62,7 +62,7 @@ export default function DocsPage() {
           </CardHeader>
           <CardContent>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>• Next.js 15 (App Router)</li>
+              <li>• Next.js 16 (App Router)</li>
               <li>• React 19</li>
               <li>• TypeScript</li>
               <li>• Tailwind CSS v4</li>

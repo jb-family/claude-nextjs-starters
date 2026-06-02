@@ -12,7 +12,7 @@ export default function Home() {
             모던 웹 개발, 쉽고 빠르게
           </h1>
           <p className="max-w-2xl text-balance text-lg text-muted-foreground sm:text-xl">
-            Next.js 15, React 19, Tailwind CSS를 활용한 완벽한 스타터킷.
+            Next.js 16, React 19, Tailwind CSS를 활용한 완벽한 스타터킷.
             바로 시작하세요.
           </p>
           <div className="flex gap-4">
@@ -42,7 +42,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Next.js 15의 최신 기능과 최적화된 성능으로 빠른 로딩을 경험하세요.
+                Next.js 16의 최신 기능과 최적화된 성능으로 빠른 로딩을 경험하세요.
               </CardDescription>
             </CardContent>
           </Card>

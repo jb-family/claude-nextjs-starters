@@ -44,6 +44,7 @@ export default function LoginPage() {
       toast.success("로그인에 성공했습니다!");
       router.push("/");
     } catch (error) {
+      console.error("로그인 오류:", error instanceof Error ? error.message : "알 수 없는 오류");
       toast.error("로그인 중 오류가 발생했습니다.");
     } finally {
       setIsLoading(false);

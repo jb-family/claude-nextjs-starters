@@ -105,11 +105,11 @@ export default function DialogsExamplePage() {
                 <DialogHeader>
                   <DialogTitle>스타터킷 정보</DialogTitle>
                   <DialogDescription>
-                    Next.js 15 App Router 기반 모던 웹 스타터킷입니다.
+                    Next.js 16 App Router 기반 모던 웹 스타터킷입니다.
                   </DialogDescription>
                 </DialogHeader>
                 <div className="py-4 text-sm text-muted-foreground">
-                  <p>• Next.js 15, React 19</p>
+                  <p>• Next.js 16, React 19</p>
                   <p>• TypeScript, Tailwind CSS v4</p>
                   <p>• shadcn/ui, lucide-react</p>
                   <p>• @tanstack/react-query, react-hook-form + zod</p>

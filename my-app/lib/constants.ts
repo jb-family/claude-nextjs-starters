@@ -1,6 +1,6 @@
 export const SITE_CONFIG = {
   name: "StarterKit",
-  description: "Next.js 15 App Router 기반 모던 웹 스타터킷",
+  description: "Next.js 16 App Router 기반 모던 웹 스타터킷",
   url: process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000",
   ogImage: "/og.png",
   links: {
