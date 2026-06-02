@@ -12,6 +12,7 @@ export const SITE_CONFIG = {
 export const NAV_ITEMS = [
   { label: "홈", href: "/" },
   { label: "대시보드", href: "/dashboard" },
+  { label: "예제", href: "/examples" },
   { label: "문서", href: "/docs" },
 ] as const;
 
