@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
@@ -24,6 +25,7 @@ import {
 import { toast } from "sonner";
 
 export default function LoginPage() {
+  const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
 
   const form = useForm<LoginInput>({
@@ -40,7 +42,7 @@ export default function LoginPage() {
       // API 호출 시뮬레이션
       await new Promise((resolve) => setTimeout(resolve, 1000));
       toast.success("로그인에 성공했습니다!");
-      console.log("로그인 데이터:", data);
+      router.push("/");
     } catch (error) {
       toast.error("로그인 중 오류가 발생했습니다.");
     } finally {
