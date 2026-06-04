@@ -65,7 +65,7 @@
 **이 지침이 잘 작동하고 있다면:** diff에서 불필요한 변경이 줄고, 과도한 복잡성으로 인한 재작성이 줄며, 실수 후가 아닌 구현 전에 명확화 질문이 나옴.
 
 
-## 개발 커맨드
+## 5. 개발 커맨드
 ```bash
 npm run dev      # 개발 서버 실행 (http://localhost:3000)
 npm run build    # 프로덕션 빌드
@@ -73,7 +73,13 @@ npm start        # 프로덕션 서버 시작
 npm run lint     # ESLint 실행
 ```
 
-## 5. 커밋 메시지 규칙
+## 6. 작업완료 체크리스트
+```bash
+npm run check-all
+npm run build
+```
+
+## 7. 커밋 메시지 규칙
 한국어로 작성, 의미있는 단위로 분리:
 
 ## 개발 팁
@@ -84,10 +90,8 @@ npm run lint     # ESLint 실행
 4. **폼 디버깅**: react-hook-form의 `console.log(form.watch())`로 상태 추적
 5. **CSS 최적화**: Tailwind CSS 유틸리티 클래스로 불필요한 CSS 파일 방지
 
-## 6.커밋 메시지 규칙
-
+## 8.커밋 메시지 규칙
 한국어로 작성, 의미있는 단위로 분리:
-
 ```
 기능: 기능 설명
 
