@@ -1,0 +1,13 @@
+1. 프로젝트에 대한 기술스택 및 초기설정을 한뒤 /init를 통한 CALUDE.md 생성
+CALUDE.md를 통한 규칙 및 스타일 가이드 정의
+2. PRD.md (제품 요구사항) 
+    ㄴ 서브에이전트를 만들어 PRD.md를 생성
+        ㄴ 서브에이전트는 각자의 context를 분리하고 있기에 메인 context가 오염되지않는 장점이 있음
+3. PRD.md을 통해 ROADMAP.md 생성
+    ㄴ 프로젝트의 구체적인 계획을 챕터별로 진행
+    
+4. Shrimp-task-manager
+    ㄴ ROADMAP.md에 나누어진 챕터를 다시한번 나누어 단계별 실행
+        ㄴ 예) 챕터 1 ~ 5 shrimp task manager를 통해 챕터 1을 1-1 ~ 1-5로 다시 쪼개어 작업을 진행
+        
+
