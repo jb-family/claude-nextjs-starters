@@ -14,7 +14,7 @@
       "env": {
         "DATA_DIR": "C:\\Users\\anc971040\\Desktop\\workspace\\claude-nextjs-starters\\shrimp_data",
         "TEMPLATES_USE": "en",
-        "ENABLE_GUI": "false"
+        "ENABLE_GUI": "true"
       }
     },
     "context7": {
