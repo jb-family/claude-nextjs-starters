@@ -9,10 +9,10 @@
       "env": {}
     },
     "shrimp-task-manager": {
-      "command": "npx",
-      "args": ["-y", "mcp-shrimp-task-manager"],
+      "command": "node",
+      "args": ["C:\\Users\\anc971040\\AppData\\Roaming\\npm\\node_modules\\mcp-shrimp-task-manager\\dist\\index.js"],
       "env": {
-        "DATA_DIR": "C:\\Users\\anc971040\\Desktop\\workspace\\notion-cms\\mcp-shrimp-task-manager\\data",
+        "DATA_DIR": "C:\\Users\\anc971040\\Desktop\\workspace\\claude-nextjs-starters\\mcp-shrimp-task-manager\\data",
         "TEMPLATES_USE": "en",
         "ENABLE_GUI": "false"
       }
